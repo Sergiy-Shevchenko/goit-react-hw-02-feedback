@@ -1,8 +1,9 @@
-import Statistics from "./statistics-task-1/statistics-task-1";
+import TaskOne from "./Statistics/statistics";
 
 export const App = () => {
   return (
-    <Statistics/>
+    <TaskOne />
+   
 
   );
 };
