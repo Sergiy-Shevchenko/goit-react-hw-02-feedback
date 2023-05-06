@@ -19,4 +19,6 @@ Statistics.propTypes = {
     positivePercentage: PropTypes.number.isRequired,
 }
 
+
+
 export default Statistics;
