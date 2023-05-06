@@ -3,6 +3,7 @@ import Section from "./FeatbackForm/Section";
 import Notification from "./FeatbackForm/Notification";
 import Statistics from "./FeatbackForm/Statistics";
 import FeedbackOptions from "./FeatbackForm/FeetbackOptions";
+import css from './FeatbackForm/statistics.module.css'
 
 class App extends Component {
    
@@ -39,7 +40,7 @@ class App extends Component {
         const positivePercentage = this.countPositiveFeedbackPercentage();
 
         return (
-            <div className="container">
+            <div className={css.container}>
 
                 <Section 
                 title={'Please leave feedback'}

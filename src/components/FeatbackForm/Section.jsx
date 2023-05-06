@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from 'prop-types';
-
+import css from './statistics.module.css';
 
 const Section = ({title, children}) => {
     return (
         <>
-<h2 className="title">{title}</h2>
+<h2 className={css.title}>{title}</h2>
 {children}</>
     )
 }
