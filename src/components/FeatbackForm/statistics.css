@@ -12,7 +12,9 @@
     margin-top: 30px;
 } 
 
-.button {    
+.button {  
+ 
+    text-transform: capitalize; 
     margin-right: 10px;    
 } 
 
