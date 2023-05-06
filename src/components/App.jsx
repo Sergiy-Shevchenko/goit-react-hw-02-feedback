@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import css from './FeatbackForm/statistics.css';
 import Section from "./FeatbackForm/Section";
 import Notification from "./FeatbackForm/Notification";
 import Statistics from "./FeatbackForm/Statistics";
